@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>创业大PK，等你来参加</title>
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, width=device-width"/>
     <link rel="stylesheet" type="text/css" href="src/main.css">
 
@@ -11,12 +11,14 @@
     </style>
 </head>
 <body>
+    <div style="display:none">
+        <img src="src/img/pk.jpg">
+    </div>
     <div id="index">
         <img class="pk" width='80%' src="src/img/pk.png">
         <img class='circle animated pulse infinite' width='80%' src="src/img/circle.png">
         <img class='flowers animated flash infinite' width='100%'src="src/img/flowers.png">
         <img class="line" width="100%" src="src/img/line.png">
-        <img class="miji" width="40%" src="src/img/miji.png">
         <img class=" begin animated rubberBand infinite" width="100%" src="src/img/answer.png" onclick="begin()">
         <div class='wei'>门客微信公众号：menke2015 </div>
     </div>
@@ -30,6 +32,7 @@
                 1、辞职创业开店卖衣服,怎么样才能把宽大舒适的试衣间最省钱的宣传出去?
             </div>
         </div>
+        <img class='animated rubberBand sheep' width='20%' src="src/img/sheep.png">
 
         <div class="items-body">
             <div class="items animated tada infinite" onclick="bye(this)">
@@ -59,6 +62,8 @@
             </div>
         </div>
 
+        <img class='animated rubberBand cow' width='28%' src="src/img/cow.png">
+
         <div class="items-body">
             <div class="items animated tada infinite" onclick="bye(this)">
                 <div>A</div>
@@ -86,6 +91,8 @@
                 3、计划今年结婚的张家口青年小张,突然告知父母不能结婚了,这是为什么?
             </div>
         </div>
+
+        <img class='animated rubberBand sheep' width='20%' src="src/img/lion.png">
 
         <div class="items-body">
             <div class="items animated tada infinite" onclick="bye(this)">
@@ -115,6 +122,8 @@
             </div>
         </div>
 
+        <img class='animated rubberBand cow' width='20%' src="src/img/xie.png">
+
         <div class="items-body">
             <div class="items animated tada infinite" onclick="bye(this)">
                 <div>A</div>
@@ -143,6 +152,8 @@
             </div>
         </div>
 
+        <img class='animated rubberBand sheep' width='28%' src="src/img/nv.png">
+
         <div class="items-body">
             <div class="items animated tada infinite" value='a' onclick="bye(this)">
                 <div>A</div>
@@ -165,11 +176,10 @@
     </div>
 
     <div id="sum" style="display:none">
+        <img class="fenxiang animated flash infinite" src="src/img/fenxiang.png" width="100%">
         <div id="sum_exp">
             <div class="learn">女朋友就想要个爱疯,满足不了就快下载门客来学习创业！</div>
-            <div class="title  animated zoomIn">门客</div>
-            <div class="des animated pulse infinite">专注于提供创业产业链服务的创业O2O社交平台</div>
-            <div class="weiguan">快来围观创业者和创业导师！</div>
+            <div class="des  animated infinite pulse">快来围观创业者和创业导师</div>
             <div class="button" onclick='next_menke()'>点击了解更多</div>
         </div>
         <div class='wei'>门客微信公众号：menke2015 </div>
@@ -204,17 +214,10 @@
     <div class="menke" style="display:none">
         <img class="logo-erweima animated tada" width='60%' src="src/img/erweima.png">
         <div class="menke-er">关注门客公众微信,获取最新创业资讯和经验交流.</div>
-        <div class="menke-up">门客已在各大应用商店上线,搜索“门客”即可下载.</div>
-        <div class="menke-go">快来门客与青年创业者、创业导师一起学习交流！</div>
+        <div class="menke-up">快去应用商店搜索<br><span class='menke-big'>“门客”</span><br>与青年创业者,创业导师一起学习交流.</div>
 
         <div class='wei'>门客微信公众号：menke2015 </div>
     </div>
-
-        
-
-
-
-
     <script>
         function bye(bt){
             var bye=document.getElementsByClassName('question-content');

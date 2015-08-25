@@ -84,9 +84,11 @@ body{
 
 /*尾页*/
 .learn{
-    margin: 30px 10% 10px;
+    position: absolute;
+    top: 25%;
+    margin: 0 10%;
     text-align: center;
-    font-size: 6vw;
+    font-size: 10vw;
 }
 .title{
     margin: 30px 10%;
@@ -95,13 +97,15 @@ body{
 
 }
 .des{
-    margin: 30px 10% 10px;
+    position: absolute;
+    bottom: 20%;
+    margin: 0 10%;
     text-align: center;
-    font-size: 10vw;
+    font-size: 8vw;
 }
 .weiguan{
     text-align: center;
-    font-size: 5vw;
+    font-size: 9vw;
 }
 .button{
     position: absolute;
@@ -160,20 +164,33 @@ body{
     text-align: center;
 }
 .menke-up{
-    font-size: 4vw;
+    font-size: 5vw;
     position: absolute;
     margin: 10px 20% 0;
     top:61%;
     text-align: center;
 }
-.menke-go{
-    font-size: 5vw;
+
+
+.cow{
     position: absolute;
-    margin: 10px 20% 0;
-    top:70%;
-    text-align: center;
+    top:40%;
+    right: 5%;
+}
+.sheep{
+    position: absolute;
+    top:40%;
+    left: 5%;
+}
+.fenxiang{
+  position: absolute;
+  top:0;
+  left: 0;
 }
 
+.menke-big{
+  font-size: 10vw;
+}
 
 /*动画*/
 .animated {
